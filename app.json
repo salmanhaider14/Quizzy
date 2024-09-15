@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.salmanpatrick5.TheProject"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0649a99a-0a45-45ef-95bc-37ade4a33f57"
+      }
+    },
+    "owner": "salmanpatrick5"
   }
 }
